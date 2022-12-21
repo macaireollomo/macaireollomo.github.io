@@ -1,0 +1,49 @@
+nav ul {
+    position: ;
+    display:flex; 
+    margin: 0px;
+    margin-top: 0cm;
+    padding: 0px;
+}
+
+nav ul li a {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    color: rgb(130, 189, 107);
+}
+
+nav ul ul{ 
+    margin: 0px;
+    padding: 0px;
+    left: top;
+    position: absolute;
+    visibility: hidden;
+}
+
+    nav ul li {
+        flex-grow: 1;
+        position: relative;
+        display:inline-block;
+        list-style-type: none;
+        text-align: center;
+        width:100px;
+        height: 40px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 0cm;
+        border-right:0px solid blanchedalmond;
+        background-color: black;
+    }
+
+    nav li:hover {
+        background-color: turquoise;
+    }
+
+    @keyframes fondu {
+        0%{background-image: url(mer.jpg);}
+        33.33%{background-image: url(abc.jpg);}
+        100%{
+          background-image: url(mer.jpg);

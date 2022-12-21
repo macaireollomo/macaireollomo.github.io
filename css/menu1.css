@@ -1,0 +1,88 @@
+body {
+
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0px;
+   
+    background-color:rgb(88, 97, 97);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+nav{
+    margin:0px;
+    position: sticky;
+    top: 0px;
+}
+
+
+nav ul {
+    display:flex; 
+}
+
+
+nav ul li {
+    flex-grow: 1;
+    list-style-type:none;
+    text-align: center;
+    height: 40px;
+    background-color: black;
+
+}
+
+nav ul li a {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    display:block;
+    color: rgb(130, 189, 107);
+}
+
+nav ul ul{ 
+    margin: 0px;
+    padding: 0px;
+    left: top;
+    position:relative;
+    visibility: hidden;
+}
+nav li:hover {
+    background-color: rgb(213, 170, 170);
+}
+
+nav ul li:hover ul{
+    visibility:visible;
+
+}
+
+nav ul li a:hover{
+    -webkit-transform: rotate(0deg);
+    transition: 0.4s;
+    background-color: turquoise;
+    color: black;
+}
+
+#entete {
+    height: 10cm;
+    margin:0cm;
+    background-image:url("../img/Paris.jpg");
+    scroll-margin-top: 0cm;
+    padding: 0cm;
+
+}
+
+#tab {
+
+    margin:0%;
+}
+    
+
+
+#province a:hover {
+    background-color:lawngreen;
+
+}
